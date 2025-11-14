@@ -1,0 +1,1 @@
+{"outputs":{"cidr":{"type":"string","value":"10.0.0.0/16"},"name":{"type":"string","value":"hello-world-subnet"}}}

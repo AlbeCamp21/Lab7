@@ -5,7 +5,7 @@
                 "provisioner": [
                     {
                         "local-exec": {
-                            "command": "echo Creando servidor hello-world en subred hello-world-subnet (CIDR 10.0.0.0/16, zona local)"
+                            "command": "echo 'Creando servidor hello-world en subred hello-world-subnet (CIDR 10.0.0.0/16, zona local)'"
                         }
                     }
                 ],

@@ -44,9 +44,9 @@ class ServerFactoryModule:
                         "provisioner": [{
                             "local-exec": {
                                 "command": (
-                                    f"echo Creando servidor {self._name} "
+                                    f"echo 'Creando servidor {self._name} "
                                     f"en subred {self._network.name} "
-                                    f"(CIDR {self._network.cidr}, zona {self._zone})"
+                                    f"(CIDR {self._network.cidr}, zona {self._zone})'"
                                 )
                             }
                         }]
